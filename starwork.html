@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    
+    
+  <meta charset="UTF-8">
+
+    
+</head>    
+    
+    
+
+    
+
+    
+
+
+
+<script>
+function Button1_onclick() {
+	// var s = new String("0123456789中文字");
+	var s = "*";
+	
+	txt1.value = s;
+	txt2.value = s+s; 
+	txt3.value = s+s+s;
+	txt4.value = s+s+s+s; 
+	
+	
+	
+}
+
+</script>
+  
+
+
+
+ <body>
+ <input type="button" id="Button1" name="Button1"   
+		value="點我一下，Shiny" onclick="Button1_onclick()">    
+		
+ <br><br>   
+txt1:
+	<input type="text" id="txt1" name="txt1" value="Result" size="40">
+	
+	<br><br>
+	txt2:
+    <INPUT type="text" id="txt2"  name="txt2" value="Result" size="40">
+    <br>
+    <div id="debug"></div>     
+     
+    <br><br>
+	txt3:
+    <INPUT type="text" id="txt3"  name="txt3" value="Result" size="40">
+    <br>
+    <div id="debug"></div>
+    
+    <br><br>
+	txt4:
+    <INPUT type="text" id="txt4"  name="txt4" value="Result" size="40">
+    <br>
+    <div id="debug"></div>
+</body>    
+    
+    
+    
+    
+    
+    
+    
+</html>
